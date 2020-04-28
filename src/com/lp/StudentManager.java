@@ -6,6 +6,7 @@ public class StudentManager {
     ArrayList<Student> studentList = new ArrayList<Student>();
     void App(){
         while (true){
+            System.out.println("");
             System.out.println("请选择操作：");
             System.out.println("***********************************");
             System.out.println("*                           1  插入                                  *");
@@ -112,9 +113,7 @@ public class StudentManager {
             }
         }
 
-
         studentList.add(student);
-
 
         Collections.sort(studentList, new Comparator<Student>() {
 

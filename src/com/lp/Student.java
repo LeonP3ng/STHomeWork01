@@ -10,8 +10,8 @@ public class Student {
 
     @Override
     public String toString() {
-        String res = "学号:"+ID+"\t\t姓名:"+name+"\t\t出生日期："+birDate;
-        res += geneder?"\t\t男":"\t\t女";
+        String res = "学号:"+ID+"姓名:"+name+"出生日期："+birDate;
+        res += geneder?"男":"女";
         return res;
     }
 
